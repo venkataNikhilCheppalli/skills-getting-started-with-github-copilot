@@ -172,3 +172,24 @@ footer {
   background-color: #bbdefb;
   transition: background-color 0.2s ease;
 }
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0 4px;
+  margin-left: 6px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
+}
+
+.delete-btn:active {
+  color: #7f0000;
+}
